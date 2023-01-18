@@ -1,0 +1,32 @@
+footer {
+    background-color: var(--color-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+}
+footer a {
+    color: var(--color-bg);
+    font-size: 1.2rem;
+}
+.permalinks {
+    flex-grow: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto 3rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:600px){
+    footer{
+        height: 50vh;
+    }
+    .permalinks{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}
